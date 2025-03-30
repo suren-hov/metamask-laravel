@@ -36,7 +36,10 @@
             });
             const data = await response.text();
 
-            console.log(data);
+            console.log("data", data);
+            console.log("address", address);
+            console.log("signature", signature);
+
             if (data === "OK") {
                 alert("Success message")
             } else {
